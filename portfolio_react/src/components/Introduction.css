@@ -1,0 +1,29 @@
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .name {
+    font-size: 5em;
+    font-weight: bold;
+    animation: fadeIn 3s ease-in-out, textGlow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes textGlow {
+    0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+    100% { text-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+  }
+  
