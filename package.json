@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "pdfjs-dist": "^4.4.168"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
