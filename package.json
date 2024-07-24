@@ -1,10 +1,5 @@
 {
   "dependencies": {
     "pdfjs-dist": "^4.4.168"
-  },
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
+  }
 }
