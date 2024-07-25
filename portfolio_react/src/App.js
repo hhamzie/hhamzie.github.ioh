@@ -10,7 +10,7 @@ import Resume from './components/Resume';
 import PDFViewer from './components/PDFViewer';
 
 
-import ReactDOM from 'react-dom/client';
+
 
 
 function App() {
