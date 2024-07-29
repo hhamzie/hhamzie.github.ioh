@@ -14,7 +14,7 @@ const PDFViewer = ({ pdfUrl }) => {
 
   useEffect(() => {
     let isCancelled = false;
-
+//comment
     console.log(`Loading PDF from URL: ${pdfUrl}`);
     const loadingTask = getDocument(pdfUrl);
 
