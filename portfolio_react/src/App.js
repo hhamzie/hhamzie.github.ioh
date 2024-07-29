@@ -14,7 +14,7 @@ import PDFViewer from './components/PDFViewer';
 
 
 function App() {
-  const pdfUrl = '/documents/MyResume1.pdf';
+  const pdfUrl = '/docs/documents/MyResume1.pdf';
   
   return (
     <div className="App">
