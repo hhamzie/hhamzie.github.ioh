@@ -10,6 +10,7 @@ GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const PDFViewer = ({ pdfUrl }) => {
   const canvasRef = useRef(null);
   const [error, setError] = useState(null);
+  pdfUrl = 'https://hhamzie.github.io/documents/MyResume1.pdf'
 
   useEffect(() => {
     let isCancelled = false;
