@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "pdfjs-dist": "^4.4.168"
+    "pdfjs-dist": "^4.5.136"
   },
   "scripts": {
     "start": "react-scripts start",
