@@ -14,8 +14,8 @@ import PDFViewer from './components/PDFViewer';
 
 
 function App() {
-  const pdfUrl = process.env.PUBLIC_URL + '/docs/documents/MyResume1.pdf';
-  
+  const pdfUrl = 'https://hhamzie.github.io/docs/documents/MyResume1.pdf';
+
   return (
     <div className="App">
       <NavBar />
