@@ -3,6 +3,7 @@ import { getDocument, GlobalWorkerOptions } from 'pdfjs-dist';
 import 'pdfjs-dist/web/pdf_viewer.css';
 import './PDFViewer.css';
 
+
 // Correct worker script URL
 const pdfjsVersion = "4.4.168";
 GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsVersion}/pdf.worker.min.mjs`;
